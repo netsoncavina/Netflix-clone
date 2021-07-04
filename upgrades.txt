@@ -1,2 +1,2 @@
-* Adicionar pop-up dos videos (referencia: https://www.youtube.com/watch?v=vcJvRUYQXA8&t=173s)
-* Refatorar funções dos filmes. Ex: function filme(nome_do_filme), switch case usando o nome do filme
+* Adicionar a função de "mais informações" nos outros filmes (a função só está presente no game of thrones por enquanto)
+*

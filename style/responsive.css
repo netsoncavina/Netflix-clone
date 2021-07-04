@@ -8,10 +8,18 @@
         margin-top: 5px;
         width: 300px;
     }
+    .descricao{
+        width: 70%;
+    }
+    
+    .filme-principal .descricao{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:100px){
     .descricao{
-        width: 50%;
+        width: 70%;
     }
+   
 }

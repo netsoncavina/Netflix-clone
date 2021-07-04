@@ -10,13 +10,16 @@
     <!-- Owl CSS -->
     <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
     <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
-    <!--  -->
-    <title>Netflix Clone</title>
+    <!-- Magnific pop up -->
+    <link rel="stylesheet" href="style/magnific-popup.css">
+    <link rel="icon" href="img/icone.ico" type="image/x-icon" />
+
+    <title>TRAILERFLIX</title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">TRAILERFLIX</h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Series</a>
@@ -31,13 +34,14 @@
                 <h3 class="titulo" id="titulo">House of Cards</h3>
                 <p class="descricao" id="sinopse">Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro.</p>
                 <div class="botoes">
-                    <a id="trailer" href = "https://www.youtube.com/watch?v=8QnMmpfKWvo" target="_blank">
+                    <a class="popup" id="trailer" href = "https://www.youtube.com/watch?v=8QnMmpfKWvo" target="_blank">
                         <button  role="button" class="botao" >
                         <i class="fas fa-play"></i>
                         ASSISTIR TRAILER
                     </button>
                     </a>
-                    <a id="info" href = "https://www.imdb.com/title/tt1856010/?ref_=fn_al_tt_1" target="_blank">
+                    <!-- <a id="info" href = "https://www.imdb.com/title/tt1856010/?ref_=fn_al_tt_1" target="_blank"> -->
+                    <a id="info" onclick="">
                     <button role="button" class="botao">
                         <i class="fas fa-info-circle"></i>
                         MAIS INFORMAÇÕES
@@ -98,6 +102,14 @@
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/setup.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $(".popup").magnificPopup({
+                type: "iframe"
+            })
+        })
+    </script>
 </body>
     
  

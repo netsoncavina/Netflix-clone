@@ -14,7 +14,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=5_4SW8HHfUs"
             document.getElementById("info").href ="https://www.imdb.com/title/tt1312171/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background =  'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-umbrella.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = 'cover'
+            document.getElementById("filme-principal").style.backgroundSize = '100% 100%'
             break
         case 'starWars9':
             document.getElementById("titulo").innerHTML = "Star Wars IX: A Ascenção Skywalker"
@@ -22,7 +22,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=i3X-xQIjqws"
             document.getElementById("info").href = "https://www.imdb.com/title/tt2527338/?ref_=nv_sr_srsg_0"
             document.getElementById("filme-principal").style.background =  'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-starwars.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = 'cover'
+            document.getElementById("filme-principal").style.backgroundSize = '100% 100%'
             break
         case 'pokemon':
             document.getElementById("titulo").innerHTML = "Pokemon"
@@ -30,7 +30,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href ="https://www.youtube.com/watch?v=dSnGOxOQfoA"
             document.getElementById("info").href = "https://www.imdb.com/title/tt0168366/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-pokemon.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'civilWar':
             document.getElementById("titulo").innerHTML = "Capitão America: Guerra Civil"
@@ -38,7 +38,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=FkTybqcX-Yo"
             document.getElementById("info").href = "https://www.imdb.com/title/tt3498820/?ref_=nv_sr_srsg_0"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-civilwar.png")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'hobbitFiveArmies':
             document.getElementById("titulo").innerHTML = "Hobbit: A Batalha dos Cinco Exércitos"
@@ -46,7 +46,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=iVAgTiBrrDA"
             document.getElementById("info").href = "https://www.imdb.com/title/tt2310332/?ref_=nv_sr_srsg_0"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-hobbit.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'breakingBad':
             document.getElementById("titulo").innerHTML = "Breaking Bad"
@@ -54,7 +54,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=HhesaQXLuRY"
             document.getElementById("info").href = "https://www.imdb.com/title/tt0903747/?ref_=nv_sr_srsg_0"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-breakingbad.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'house':
             document.getElementById("titulo").innerHTML = "House"
@@ -70,7 +70,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=t-775JyzDTk"
             document.getElementById("info").href = "https://www.imdb.com/title/tt0460681/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-supernatural.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'smallville':
             document.getElementById("titulo").innerHTML = "SmallVile"
@@ -78,7 +78,7 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=yBHfuph4WWY"
             document.getElementById("info").href = "https://www.imdb.com/title/tt0279600/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-smallville.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'guerraInfinita':
             document.getElementById("titulo").innerHTML = "Vingadores: Guerra Infinita"
@@ -86,25 +86,27 @@ function atualizarFilme(nome_do_filme){
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=t_ULBP6V9bg"
             document.getElementById("info").href = "https://www.imdb.com/title/tt4154756/?ref_=fn_al_tt_4"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-guerrainfinita.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'houseOfCards':
             document.getElementById("titulo").innerHTML = "House of Cards"
             document.getElementById("sinopse").innerHTML = "Um político inescrupuloso não mede esforços para conquistar o poder nos EUA neste drama vencedor do Emmy e do Globo de Ouro."
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=8QnMmpfKWvo"
-            document.getElementById("info").href = "https://www.imdb.com/title/tt1856010/?ref_=fn_al_tt_1"
+            // document.getElementById("info").href = "https://www.imdb.com/title/tt1856010/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-houseofcards.jpg")'
-            document.getElementById("filme-principal").style.backgroundSize = "cover"
+            document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
             break
         case 'gameOfThrones':
             document.getElementById("titulo").innerHTML = "Game of Thrones"
             document.getElementById("sinopse").innerHTML = "Em uma terra onde os verões podem durar vários anos e o inverno toda uma vida, sete nobres famílias lutam pelo controle da mítica terra de Westeros, dividida depois de uma guerra."
             document.getElementById("trailer").href = "https://www.youtube.com/watch?v=KPLWWIOCOOQ"
-            document.getElementById("info").href = "https://www.imdb.com/title/tt0944947/?ref_=fn_al_tt_1"
             document.getElementById("filme-principal").style.background = 'linear-gradient(rgb(0,0,0,0.5),rgb(0,0,0,0.5)100%), url("/img/capa-gameofthrones.jpg")'
             document.getElementById("filme-principal").style.backgroundSize = "100% 100%"
+            
+            document.getElementById("info").onclick = () =>{
+                const str = "<br><br><span class='detalhes'>Duração 1h <br>2011-2019 <br>iMDB 9.3/10<br>Criação:George R R Martin & David Benioff <br>Elenco: Emilia Clarke, Peter Dinklage, Kit Harington</span>"
+                document.getElementById("sinopse").innerHTML = str
+            }
             break
     }
 }
-
-
